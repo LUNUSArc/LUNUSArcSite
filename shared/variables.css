@@ -1,9 +1,9 @@
 :root {
     /* Colors */
 
-    --color-black: #1a1a1a;
-    --color-deep-black: #101010;
-    --color-white: #ffffff;
+    --color-black: #0e0e0f;
+--color-deep-black: #070708;
+--color-white: #f7f8ff;
 
     --color-text-muted: rgba(255, 255, 255, 0.42);
     --color-text-soft: rgba(255, 255, 255, 0.76);
@@ -12,8 +12,8 @@
 
     /* Layout */
 
-    --top-bar-height: 88px;
-    --bottom-bar-height: 110px;
+    --top-bar-height: 58px;
+    --bottom-bar-height: 72px;
 
     /* Spacing */
 
