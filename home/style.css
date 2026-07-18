@@ -1,0 +1,72 @@
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-panel {
+    width: min(700px, 66%);
+
+    padding: clamp(28px, 4vw, 56px);
+
+    background: rgba(17, 17, 17, 0.84);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(6px);
+}
+
+.home-label {
+    margin-bottom: 14px;
+
+    color: rgba(255, 255, 255, 0.56);
+
+    font-size: 0.76rem;
+    font-weight: 700;
+
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+}
+
+.home-title {
+    margin-bottom: 24px;
+
+    font-size: clamp(3.5rem, 8vw, 7rem);
+
+    line-height: 0.86;
+
+    letter-spacing: 0.02em;
+}
+
+.home-description {
+    max-width: 620px;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    font-size: clamp(1rem, 1.45vw, 1.3rem);
+
+    line-height: 1.65;
+}
+
+@media (max-width: 720px) {
+    .home-page {
+        justify-content: center;
+    }
+
+    .home-panel {
+        width: 100%;
+
+        padding: 24px 20px;
+    }
+
+    .home-title {
+        margin-bottom: 18px;
+
+        font-size: clamp(3rem, 17vw, 5rem);
+    }
+
+    .home-description {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}

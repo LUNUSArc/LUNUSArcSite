@@ -1,0 +1,29 @@
+:root {
+    /* Colors */
+
+    --color-black: #1a1a1a;
+    --color-deep-black: #101010;
+    --color-white: #ffffff;
+
+    --color-text-muted: rgba(255, 255, 255, 0.42);
+    --color-text-soft: rgba(255, 255, 255, 0.76);
+
+    --color-border: rgba(255, 255, 255, 0.08);
+
+    /* Layout */
+
+    --top-bar-height: 88px;
+    --bottom-bar-height: 110px;
+
+    /* Spacing */
+
+    --page-padding: clamp(24px, 5vw, 72px);
+
+    /* Typography */
+
+    --font-main: Arial, Helvetica, sans-serif;
+
+    /* Animation */
+
+    --transition-fast: 160ms ease;
+}
