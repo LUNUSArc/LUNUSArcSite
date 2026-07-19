@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.idToCallbackMap = new Map(
 gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.userFunc0x2b7e228 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.userFunc0x2b901a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -81,7 +81,7 @@ gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.eventsList0 = function(run
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.userFunc0x2b7e228(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__ConvertMaterialTypeBySlot.userFunc0x2b901a0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

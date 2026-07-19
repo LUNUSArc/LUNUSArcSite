@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.userFunc0x2ba8870 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.userFunc0x2ba5860 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.eventsList0 = function(runtimeScen
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.userFunc0x2ba8870(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__FlatShadingBySlot.userFunc0x2ba5860(runtimeScene, objects, eventsFunctionContext);
 
 }
 

@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__ShadowSide.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__ShadowSide.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__ShadowSide.userFunc0x2bc7498 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__ShadowSide.userFunc0x2bca858 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -39,7 +39,7 @@ gdjs.evtsExt__MeshMaterial__ShadowSide.eventsList0 = function(runtimeScene, even
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__ShadowSide.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__ShadowSide.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__ShadowSide.userFunc0x2bc7498(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__ShadowSide.userFunc0x2bca858(runtimeScene, objects, eventsFunctionContext);
 
 }
 

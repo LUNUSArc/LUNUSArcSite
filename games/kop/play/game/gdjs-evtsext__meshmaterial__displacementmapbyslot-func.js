@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.userFunc0x2ad8db8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.userFunc0x2a724f0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -42,7 +42,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.eventsList0 = function(runtime
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.userFunc0x2ad8db8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__DisplacementMapBySlot.userFunc0x2a724f0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

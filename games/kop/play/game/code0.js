@@ -16,7 +16,7 @@ gdjs.startCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32411412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32416140);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.preloadSound(runtimeScene, "KOPmainMenu.wav");
@@ -38,7 +38,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32412612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32417340);
 }
 }
 if (isConditionTrue_0) {

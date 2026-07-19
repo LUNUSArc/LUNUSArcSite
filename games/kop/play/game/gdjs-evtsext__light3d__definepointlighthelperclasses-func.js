@@ -9,7 +9,7 @@ gdjs.evtsExt__Light3D__DefinePointLightHelperClasses = {};
 gdjs.evtsExt__Light3D__DefinePointLightHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Light3D__DefinePointLightHelperClasses.userFunc0xdf9fd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Light3D__DefinePointLightHelperClasses.userFunc0x2a9a510 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 //@ts-ignore
 if (gdjs.__light3DExtension.point) {
@@ -202,7 +202,7 @@ gdjs.evtsExt__Light3D__DefinePointLightHelperClasses.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__Light3D__DefinePointLightHelperClasses.userFunc0xdf9fd8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Light3D__DefinePointLightHelperClasses.userFunc0x2a9a510(runtimeScene, eventsFunctionContext);
 
 }
 

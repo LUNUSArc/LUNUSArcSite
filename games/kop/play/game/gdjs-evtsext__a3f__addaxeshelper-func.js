@@ -20,7 +20,7 @@ gdjs.evtsExt__A3F__AddAxesHelper.GDObjectObjects2= [];
 gdjs.evtsExt__A3F__AddAxesHelper.GDObjectObjects3= [];
 
 
-gdjs.evtsExt__A3F__AddAxesHelper.userFunc0xde2710 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__AddAxesHelper.userFunc0x18f54b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Object3D = objects[0].get3DRendererObject();
 //
@@ -36,7 +36,7 @@ gdjs.copyArray(gdjs.evtsExt__A3F__AddAxesHelper.GDObjectObjects2, gdjs.evtsExt__
 
 
 const objects = gdjs.evtsExt__A3F__AddAxesHelper.GDObjectObjects3;
-gdjs.evtsExt__A3F__AddAxesHelper.userFunc0xde2710(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__A3F__AddAxesHelper.userFunc0x18f54b0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

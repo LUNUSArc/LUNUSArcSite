@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__Dithering.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__Dithering.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__Dithering.userFunc0x2b02588 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__Dithering.userFunc0x2afc270 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -31,7 +31,7 @@ gdjs.evtsExt__MeshMaterial__Dithering.eventsList0 = function(runtimeScene, event
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__Dithering.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__Dithering.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__Dithering.userFunc0x2b02588(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__Dithering.userFunc0x2afc270(runtimeScene, objects, eventsFunctionContext);
 
 }
 

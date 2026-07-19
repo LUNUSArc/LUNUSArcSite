@@ -190,14 +190,14 @@ gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext
 }
 
 
-};gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.asyncCallback30430572 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.asyncCallback30433572 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 
 { //Subevents
 gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.eventsList2(runtimeScene, eventsFunctionContext, asyncObjectsList);} //End of subevents
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.idToCallbackMap.set(30430572, gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.asyncCallback30430572);
+gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.idToCallbackMap.set(30433572, gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.asyncCallback30433572);
 gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.eventsList3 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -208,7 +208,7 @@ gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.GDbackObjects1) asyncObjectsList.addObject("back", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.asyncCallback30430572(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30430572, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.asyncCallback30433572(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30433572, asyncObjectsList);
 }
 }
 
@@ -236,7 +236,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(29920244);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(29924140);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("sliderBlueJoystick"), gdjs.evtsExt__K_OP___settingsMenu.settingsMenu.prototype.doStepPostEventsContext.GDsliderBlueJoystickObjects1);

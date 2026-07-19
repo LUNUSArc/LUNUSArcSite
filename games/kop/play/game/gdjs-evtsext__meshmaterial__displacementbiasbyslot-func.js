@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.userFunc0x2a69010 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.userFunc0x2b52410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.eventsList0 = function(runtim
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.userFunc0x2a69010(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__DisplacementBiasBySlot.userFunc0x2b52410(runtimeScene, objects, eventsFunctionContext);
 
 }
 

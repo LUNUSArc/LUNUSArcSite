@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__EmissiveIntensity.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__EmissiveIntensity.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__EmissiveIntensity.userFunc0x2a9a6c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__EmissiveIntensity.userFunc0x2b6edf0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -31,7 +31,7 @@ gdjs.evtsExt__MeshMaterial__EmissiveIntensity.eventsList0 = function(runtimeScen
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__EmissiveIntensity.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__EmissiveIntensity.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__EmissiveIntensity.userFunc0x2a9a6c0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__EmissiveIntensity.userFunc0x2b6edf0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

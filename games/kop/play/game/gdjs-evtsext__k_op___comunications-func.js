@@ -16,7 +16,7 @@ gdjs.evtsExt__K_OP___comunications.eventsList0 = function(runtimeScene, eventsFu
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30217476);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30220540);
 }
 if (isConditionTrue_0) {
 {gdjs.multiplayerVariablesManager.takeVariableOwnership(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(2));
@@ -33,7 +33,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30219540);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30222604);
 }
 if (isConditionTrue_0) {
 {gdjs.multiplayerVariablesManager.takeVariableOwnership(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(0));
@@ -50,7 +50,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30214548);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30217612);
 }
 if (isConditionTrue_0) {
 {gdjs.multiplayerVariablesManager.disableVariableSynchronization(runtimeScene, eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3));

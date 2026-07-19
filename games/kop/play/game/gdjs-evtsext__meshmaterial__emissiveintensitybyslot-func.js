@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.userFunc0x2b76fc8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.userFunc0x2b6edf0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.eventsList0 = function(runti
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.userFunc0x2b76fc8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__EmissiveIntensityBySlot.userFunc0x2b6edf0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

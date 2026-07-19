@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.userFunc0x2a69010 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.userFunc0x2b4fbe0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.eventsList0 = function(runti
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.userFunc0x2a69010(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__DisplacementScaleBySlot.userFunc0x2b4fbe0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

@@ -230,13 +230,13 @@ gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.GD
 gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.GDbackwallObjects3= [];
 
 
-gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.asyncCallback30531748 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.asyncCallback30534828 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "awardsound", false, eventsFunctionContext.globalVariablesForExtension.getFromIndex(0).getChild("settings").getChild("sound").getChild("menuSFX").getAsNumber(), 1);
 }
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.idToCallbackMap.set(30531748, gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.asyncCallback30531748);
+gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.idToCallbackMap.set(30534828, gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.asyncCallback30534828);
 gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -246,7 +246,7 @@ gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.ev
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.01), (runtimeScene) => (gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.asyncCallback30531748(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30531748, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.01), (runtimeScene) => (gdjs.evtsExt__K_OP___awardDisplay.awardDisplay.prototype.activateAwardContext.asyncCallback30534828(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30534828, asyncObjectsList);
 }
 }
 

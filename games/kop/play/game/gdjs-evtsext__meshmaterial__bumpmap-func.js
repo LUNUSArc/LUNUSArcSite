@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__BumpMap.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__BumpMap.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__BumpMap.userFunc0x2acbdd8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__BumpMap.userFunc0x2a9be48 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -37,7 +37,7 @@ gdjs.evtsExt__MeshMaterial__BumpMap.eventsList0 = function(runtimeScene, eventsF
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__BumpMap.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__BumpMap.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__BumpMap.userFunc0x2acbdd8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__BumpMap.userFunc0x2a9be48(runtimeScene, objects, eventsFunctionContext);
 
 }
 

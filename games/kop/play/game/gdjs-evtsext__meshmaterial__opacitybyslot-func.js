@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__OpacityBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__OpacityBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__OpacityBySlot.userFunc0x2a65800 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__OpacityBySlot.userFunc0x2ab2e78 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__OpacityBySlot.eventsList0 = function(runtimeScene, e
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__OpacityBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__OpacityBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__OpacityBySlot.userFunc0x2a65800(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__OpacityBySlot.userFunc0x2ab2e78(runtimeScene, objects, eventsFunctionContext);
 
 }
 

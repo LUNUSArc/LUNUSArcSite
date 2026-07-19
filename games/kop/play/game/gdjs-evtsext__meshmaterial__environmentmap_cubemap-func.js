@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.userFunc0x2b90030 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.userFunc0x2b9a948 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -43,7 +43,7 @@ gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.eventsList0 = function(runtim
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.userFunc0x2b90030(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__EnvironmentMap_Cubemap.userFunc0x2b9a948(runtimeScene, objects, eventsFunctionContext);
 
 }
 

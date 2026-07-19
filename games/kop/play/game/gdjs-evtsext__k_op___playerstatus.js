@@ -57,7 +57,7 @@ gdjs.evtsExt__K_OP___playerStatus.playerStatus.prototype.doStepPostEventsContext
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30386860);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30389924);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("playerName"), gdjs.evtsExt__K_OP___playerStatus.playerStatus.prototype.doStepPostEventsContext.GDplayerNameObjects1);

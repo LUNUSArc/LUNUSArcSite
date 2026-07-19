@@ -587,7 +587,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteB
 gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31243804);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31246884);
 }
 }
 if (isConditionTrue_0) {
@@ -659,7 +659,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteB
 gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31249508);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31252588);
 }
 }
 if (isConditionTrue_0) {
@@ -707,7 +707,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteB
 gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31252708);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31255788);
 }
 }
 if (isConditionTrue_0) {
@@ -752,7 +752,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteB
 gdjs.evtsExt__PanelSpriteButtonColoured__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31255012);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31258092);
 }
 }
 if (isConditionTrue_0) {

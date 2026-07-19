@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__AlphaHash.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__AlphaHash.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__AlphaHash.userFunc0x2b8a240 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__AlphaHash.userFunc0x2b901a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -31,7 +31,7 @@ gdjs.evtsExt__MeshMaterial__AlphaHash.eventsList0 = function(runtimeScene, event
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__AlphaHash.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__AlphaHash.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__AlphaHash.userFunc0x2b8a240(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__AlphaHash.userFunc0x2b901a0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

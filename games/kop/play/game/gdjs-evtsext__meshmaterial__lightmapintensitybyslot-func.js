@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.userFunc0x2b25b90 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.userFunc0x2b2c368 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.eventsList0 = function(runti
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.userFunc0x2b25b90(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__LightMapIntensityBySlot.userFunc0x2b2c368(runtimeScene, objects, eventsFunctionContext);
 
 }
 

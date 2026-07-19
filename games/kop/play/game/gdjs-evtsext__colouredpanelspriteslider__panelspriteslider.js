@@ -983,7 +983,7 @@ gdjs.evtsExt__ColouredPanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.pro
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31911772);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(31916508);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Background"), gdjs.evtsExt__ColouredPanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDBackgroundObjects1);

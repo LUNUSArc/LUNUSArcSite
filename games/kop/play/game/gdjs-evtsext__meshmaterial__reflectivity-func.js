@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__Reflectivity.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__Reflectivity.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__Reflectivity.userFunc0x2b35f60 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__Reflectivity.userFunc0x2b3dde0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -31,7 +31,7 @@ gdjs.evtsExt__MeshMaterial__Reflectivity.eventsList0 = function(runtimeScene, ev
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__Reflectivity.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__Reflectivity.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__Reflectivity.userFunc0x2b35f60(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__Reflectivity.userFunc0x2b3dde0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

@@ -62,13 +62,13 @@ gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.GDIDT
 gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.GDIDTextObjects3= [];
 
 
-gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30447484 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30450660 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 {gdjs.multiplayer.openLobbiesWindow(runtimeScene);
 }
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.idToCallbackMap.set(30447484, gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30447484);
+gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.idToCallbackMap.set(30450660, gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30450660);
 gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -78,7 +78,7 @@ gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.event
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30447484(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30447484, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30450660(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30450660, asyncObjectsList);
 }
 }
 
@@ -103,14 +103,14 @@ gdjs.copyArray(asyncObjectsList.getObjects("back"), gdjs.evtsExt__K_OP___fightMe
 }
 
 
-};gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30454804 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30457980 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 
 { //Subevents
 gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.eventsList1(runtimeScene, eventsFunctionContext, asyncObjectsList);} //End of subevents
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.idToCallbackMap.set(30454804, gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30454804);
+gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.idToCallbackMap.set(30457980, gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30457980);
 gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.eventsList2 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -121,7 +121,7 @@ gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.event
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.GDbackObjects1) asyncObjectsList.addObject("back", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30454804(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30454804, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__K_OP___fightMenu.fightMenu.prototype.doStepPostEventsContext.asyncCallback30457980(runtimeScene, eventsFunctionContext, asyncObjectsList)), 30457980, asyncObjectsList);
 }
 }
 
@@ -135,9 +135,11 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30441972);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30444948);
 }
 if (isConditionTrue_0) {
+{gdjs.playerAuthentication.logout(runtimeScene);
+}
 {eventsFunctionContext.globalVariablesForExtension.getFromIndex(0).getChild("state").getChild("networking").getChild("targetID").setString("0");
 }
 {eventsFunctionContext.globalVariablesForExtension.getFromIndex(0).getChild("state").getChild("networking").getChild("privateHost").setNumber(0);
@@ -157,7 +159,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.adMob.isBannerLoaded();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30444492);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30447668);
 }
 }
 if (isConditionTrue_0) {
@@ -258,7 +260,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.multiplayer.isLobbiesWindowOpen(runtimeScene));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30451644);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30454820);
 }
 }
 if (isConditionTrue_0) {

@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.userFunc0x2b02588 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.userFunc0x2b11e68 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const slotNum = eventsFunctionContext.getArgument("Slot");
@@ -36,7 +36,7 @@ gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.eventsList0 = function(runtime
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.userFunc0x2b02588(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__ForceSinglePassBySlot.userFunc0x2b11e68(runtimeScene, objects, eventsFunctionContext);
 
 }
 

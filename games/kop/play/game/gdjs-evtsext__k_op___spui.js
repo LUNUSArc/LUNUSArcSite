@@ -96,7 +96,7 @@ gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEventsContext.eventsList0 = f
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30310020);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30313084);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("back"), gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEventsContext.GDbackObjects1);
@@ -136,7 +136,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30311468);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30314532);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("back"), gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEventsContext.GDbackObjects2);
@@ -205,7 +205,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30314956);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30318020);
 }
 }
 if (isConditionTrue_0) {
@@ -235,7 +235,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30316204);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30319268);
 }
 }
 if (isConditionTrue_0) {
@@ -263,7 +263,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("touchIcon"), gdjs.evtsExt__K_OP
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30248084);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30251148);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("FlatDarkJoystick"), gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEventsContext.GDFlatDarkJoystickObjects1);
@@ -299,7 +299,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.multiplayerMessageManager.hasAnyPlayerJustLeft();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30303540);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30306604);
 }
 }
 if (isConditionTrue_0) {
@@ -318,7 +318,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.multiplayer.hasLobbyGameJustEnded();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30304124);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30307188);
 }
 }
 if (isConditionTrue_0) {
@@ -420,7 +420,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEv
 gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEventsContext.GDsoundButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30307628);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30310692);
 }
 }
 if (isConditionTrue_0) {
@@ -452,7 +452,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEv
 gdjs.evtsExt__K_OP___SPUI.SPUI.prototype.doStepPostEventsContext.GDsoundButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30308884);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30311948);
 }
 }
 if (isConditionTrue_0) {

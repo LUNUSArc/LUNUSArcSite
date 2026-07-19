@@ -20,7 +20,7 @@ gdjs.evtsExt__A3F__ChangeShadow.GDObjectObjects2= [];
 gdjs.evtsExt__A3F__ChangeShadow.GDObjectObjects3= [];
 
 
-gdjs.evtsExt__A3F__ChangeShadow.userFunc0xdec650 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__ChangeShadow.userFunc0xa32f40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Object2D = objects[0];
 const Object3D = Object2D.get3DRendererObject();
@@ -44,7 +44,7 @@ gdjs.copyArray(gdjs.evtsExt__A3F__ChangeShadow.GDObjectObjects2, gdjs.evtsExt__A
 
 
 const objects = gdjs.evtsExt__A3F__ChangeShadow.GDObjectObjects3;
-gdjs.evtsExt__A3F__ChangeShadow.userFunc0xdec650(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__A3F__ChangeShadow.userFunc0xa32f40(runtimeScene, objects, eventsFunctionContext);
 
 }
 

@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementScale.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__DisplacementScale.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__DisplacementScale.userFunc0x2a69010 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__DisplacementScale.userFunc0x2b4fbe0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     objects[0].get3DRendererObject().traverse((node) => {
@@ -31,7 +31,7 @@ gdjs.evtsExt__MeshMaterial__DisplacementScale.eventsList0 = function(runtimeScen
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__DisplacementScale.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__DisplacementScale.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__DisplacementScale.userFunc0x2a69010(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__DisplacementScale.userFunc0x2b4fbe0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

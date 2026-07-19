@@ -10,7 +10,7 @@ gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.idToCallbackMap = new Map();
 gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.userFunc0x2ae5490 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.userFunc0x2af8968 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (objects.length > 0) {
     const rgbcolor = gdjs.rgbOrHexToRGBColor(eventsFunctionContext.getArgument("Color"));
@@ -38,7 +38,7 @@ gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.eventsList0 = function(runtimeSc
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.GDObjectObjects1;
-gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.userFunc0x2ae5490(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MeshMaterial__EmissiveColorBySlot.userFunc0x2af8968(runtimeScene, objects, eventsFunctionContext);
 
 }
 

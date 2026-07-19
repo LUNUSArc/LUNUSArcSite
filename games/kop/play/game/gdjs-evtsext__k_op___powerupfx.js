@@ -54,7 +54,7 @@ gdjs.evtsExt__K_OP___powerUpFX.powerUpFX.prototype.doStepPostEventsContext.event
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30697724);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30700804);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("powerUp"), gdjs.evtsExt__K_OP___powerUpFX.powerUpFX.prototype.doStepPostEventsContext.GDpowerUpObjects2);
@@ -91,7 +91,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__K_OP___powerUpFX.powerUpFX.prototype.do
 gdjs.evtsExt__K_OP___powerUpFX.powerUpFX.prototype.doStepPostEventsContext.GDpowerUpObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30699580);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30702660);
 }
 }
 if (isConditionTrue_0) {
@@ -134,7 +134,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30701180);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30704260);
 }
 }
 if (isConditionTrue_0) {
@@ -199,7 +199,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30705404);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30708484);
 }
 }
 if (isConditionTrue_0) {
@@ -257,7 +257,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30709052);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30712132);
 }
 }
 if (isConditionTrue_0) {
@@ -315,7 +315,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30712740);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30715820);
 }
 }
 if (isConditionTrue_0) {
@@ -373,7 +373,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30716436);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30719516);
 }
 }
 if (isConditionTrue_0) {
@@ -431,7 +431,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30720308);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30723388);
 }
 }
 if (isConditionTrue_0) {
@@ -489,7 +489,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30723860);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30726940);
 }
 }
 if (isConditionTrue_0) {
@@ -547,7 +547,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30727580);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30730660);
 }
 }
 if (isConditionTrue_0) {
@@ -605,7 +605,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30731276);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30734356);
 }
 }
 if (isConditionTrue_0) {
@@ -663,7 +663,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30735188);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30738268);
 }
 }
 if (isConditionTrue_0) {
@@ -721,7 +721,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30738908);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30741988);
 }
 }
 if (isConditionTrue_0) {
@@ -779,7 +779,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30742628);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30745708);
 }
 }
 if (isConditionTrue_0) {
@@ -837,7 +837,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30746348);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30749428);
 }
 }
 if (isConditionTrue_0) {
@@ -895,7 +895,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30750068);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30753148);
 }
 }
 if (isConditionTrue_0) {
@@ -953,7 +953,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30753788);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30756868);
 }
 }
 if (isConditionTrue_0) {
@@ -1011,7 +1011,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30757412);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30760492);
 }
 }
 if (isConditionTrue_0) {
@@ -1057,7 +1057,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30761164);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30764244);
 }
 }
 if (isConditionTrue_0) {

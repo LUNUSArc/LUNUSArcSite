@@ -9,7 +9,7 @@ gdjs.evtsExt__Choose__RandomString = {};
 gdjs.evtsExt__Choose__RandomString.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Choose__RandomString.userFunc0x2a74ce8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Choose__RandomString.userFunc0x2a43cd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {string[]} */
 const choices = eventsFunctionContext.getArgument("ChoicesString").split(',');
@@ -21,7 +21,7 @@ gdjs.evtsExt__Choose__RandomString.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Choose__RandomString.userFunc0x2a74ce8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Choose__RandomString.userFunc0x2a43cd8(runtimeScene, eventsFunctionContext);
 
 }
 

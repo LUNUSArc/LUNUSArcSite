@@ -9,7 +9,7 @@ gdjs.evtsExt__A3F__Initialize = {};
 gdjs.evtsExt__A3F__Initialize.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__A3F__Initialize.userFunc0x1b79d20 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__A3F__Initialize.userFunc0x260e670 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._A3F) return;
 gdjs._A3F = {};
@@ -77,7 +77,7 @@ gdjs.evtsExt__A3F__Initialize.eventsList0 = function(runtimeScene, eventsFunctio
 {
 
 
-gdjs.evtsExt__A3F__Initialize.userFunc0x1b79d20(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__A3F__Initialize.userFunc0x260e670(runtimeScene, eventsFunctionContext);
 
 }
 
