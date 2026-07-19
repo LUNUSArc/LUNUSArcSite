@@ -1,43 +1,71 @@
 "use strict";
 
-/*
-    Returns the name of the current page folder.
-
-    Examples:
-    /home/ becomes "home"
-    /games/ becomes "games"
-*/
-
-function getCurrentPageName() {
+function getSiteRootPath() {
     const pathParts = window.location.pathname
         .split("/")
         .filter(Boolean);
 
-    return pathParts[pathParts.length - 1] || "home";
+    /*
+        Works with Live Server:
+        /games/kop/
+
+        Also works with GitHub Pages:
+        /repository-name/games/kop/
+    */
+
+    const githubPagesHost =
+        window.location.hostname.endsWith("github.io");
+
+    if (githubPagesHost && pathParts.length > 0) {
+        return `/${pathParts[0]}`;
+    }
+
+    return "";
 }
 
-/*
-    Loads an external HTML file into an element.
-*/
+function getCurrentSection() {
+    const pathParts = window.location.pathname
+        .split("/")
+        .filter(Boolean);
 
-async function loadComponent(elementId, filePath) {
-    const targetElement = document.getElementById(elementId);
+    const knownSections = [
+        "home",
+        "games",
+        "merch",
+        "team",
+        "collabs"
+    ];
+
+    return (
+        pathParts.find((part) =>
+            knownSections.includes(part)
+        ) || "home"
+    );
+}
+
+async function loadComponent(elementId, componentFile) {
+    const targetElement =
+        document.getElementById(elementId);
 
     if (!targetElement) {
-        console.error(`Element #${elementId} was not found.`);
         return;
     }
 
+    const siteRoot = getSiteRootPath();
+    const componentPath =
+        `${siteRoot}/shared/${componentFile}`;
+
     try {
-        const response = await fetch(filePath);
+        const response = await fetch(componentPath);
 
         if (!response.ok) {
             throw new Error(
-                `Could not load ${filePath}. Status: ${response.status}`
+                `Could not load ${componentPath}`
             );
         }
 
-        targetElement.innerHTML = await response.text();
+        targetElement.innerHTML =
+            await response.text();
     } catch (error) {
         console.error(error);
 
@@ -49,61 +77,76 @@ async function loadComponent(elementId, filePath) {
     }
 }
 
-/*
-    Highlights the navigation link belonging
-    to the current page.
-*/
+function updateSharedLinks() {
+    const siteRoot = getSiteRootPath();
 
-function setActiveNavigationLink() {
-    const currentPage = getCurrentPageName();
+    document
+        .querySelectorAll("[data-site-path]")
+        .forEach((element) => {
+            const destination =
+                element.dataset.sitePath;
 
-    const navigationLinks =
-        document.querySelectorAll(".nav-link");
+            element.setAttribute(
+                "href",
+                `${siteRoot}/${destination}/`
+            );
+        });
 
-    navigationLinks.forEach((link) => {
-        const isCurrentPage =
-            link.dataset.page === currentPage;
-
-        link.classList.toggle(
-            "active",
-            isCurrentPage
+    const logo =
+        document.querySelector(
+            "[data-branding-image]"
         );
 
-        if (isCurrentPage) {
-            link.setAttribute(
-                "aria-current",
-                "page"
-            );
-        } else {
-            link.removeAttribute(
-                "aria-current"
-            );
-        }
-    });
+    if (logo) {
+        logo.src =
+            `${siteRoot}/assets/images/branding/LUNUSArc logo.png`;
+    }
 }
 
-/*
-    Loads all shared site components.
-*/
+function setActiveNavigationLink() {
+    const currentSection =
+        getCurrentSection();
+
+    document
+        .querySelectorAll(".nav-link")
+        .forEach((link) => {
+            const active =
+                link.dataset.page ===
+                currentSection;
+
+            link.classList.toggle(
+                "active",
+                active
+            );
+
+            if (active) {
+                link.setAttribute(
+                    "aria-current",
+                    "page"
+                );
+            } else {
+                link.removeAttribute(
+                    "aria-current"
+                );
+            }
+        });
+}
 
 async function initializeSharedComponents() {
     await Promise.all([
         loadComponent(
             "shared-navbar",
-            "../shared/navbar.html"
+            "navbar.html"
         ),
 
         loadComponent(
             "shared-footer",
-            "../shared/footer.html"
+            "footer.html"
         )
     ]);
 
+    updateSharedLinks();
     setActiveNavigationLink();
-
-    console.log(
-        "LUNUS Arc shared components loaded."
-    );
 }
 
 document.addEventListener(
