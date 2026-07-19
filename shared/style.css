@@ -303,4 +303,32 @@ a {
     .ad-screen span {
         font-size: 0.58rem;
     }
+
+    /* =========================================
+   GLOBAL PAGE ENTRANCE ANIMATION
+========================================= */
+
+.page-area {
+    animation: pageFadeIn 320ms ease both;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Respect reduced-motion accessibility settings */
+
+@media (prefers-reduced-motion: reduce) {
+    .page-area {
+        animation: none;
+    }
+}
 }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Play K.O.P by LUNUS Arc."
+    >
+
+    <title>Play K.O.P | LUNUS Arc</title>
+
+    <link rel="stylesheet" href="../../../shared/variables.css">
+    <link rel="stylesheet" href="../../../shared/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="site-shell">
+
+        <div id="shared-navbar"></div>
+
+        <main class="page-area play-page">
+
+            <div class="game-shell">
+
+                <iframe
+                    id="kop-game"
+                    class="game-frame"
+                    src="game/index.html"
+                    title="K.O.P"
+                    allow="autoplay; fullscreen; gamepad"
+                    allowfullscreen
+                ></iframe>
+
+                <button
+                    id="fullscreen-button"
+                    class="fullscreen-button"
+                    type="button"
+                >
+                    Fullscreen
+                </button>
+
+            </div>
+
+        </main>
+
+        <div id="shared-footer"></div>
+
+    </div>
+
+    <script src="../../../shared/script.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
