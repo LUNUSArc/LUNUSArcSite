@@ -1,11 +1,30 @@
 .home-page {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+
+    overflow: hidden;
 }
 
+.home-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(340px, 0.9fr)
+        minmax(400px, 1.1fr);
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    gap: clamp(36px, 5vw, 88px);
+}
+
+/* =========================================
+   HOME INTRODUCTION
+========================================= */
+
 .home-panel {
-    width: min(700px, 66%);
+    width: 100%;
+    max-width: 700px;
 
     padding: clamp(28px, 4vw, 56px);
 
@@ -16,7 +35,8 @@
     backdrop-filter: blur(6px);
 }
 
-.home-label {
+.home-label,
+.orbit-label {
     margin-bottom: 14px;
 
     color: rgba(255, 255, 255, 0.56);
@@ -31,7 +51,7 @@
 .home-title {
     margin-bottom: 24px;
 
-    font-size: clamp(3.5rem, 8vw, 7rem);
+    font-size: clamp(3.5rem, 7vw, 7rem);
 
     line-height: 0.86;
 
@@ -43,30 +63,555 @@
 
     color: rgba(255, 255, 255, 0.8);
 
-    font-size: clamp(1rem, 1.45vw, 1.3rem);
+    font-size: clamp(1rem, 1.35vw, 1.3rem);
 
     line-height: 1.65;
 }
 
-@media (max-width: 720px) {
-    .home-page {
-        justify-content: center;
+/* =========================================
+   STUDIO ORBIT
+========================================= */
+
+.studio-orbit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 0;
+    min-height: 0;
+    height: 100%;
+}
+
+.orbit-label {
+    margin-bottom: 8px;
+
+    flex-shrink: 0;
+
+    text-align: center;
+}
+
+.orbit-system {
+    position: relative;
+
+    width: min(
+        38vw,
+        100%,
+        560px,
+        calc(
+            100dvh
+            - var(--top-bar-height)
+            - var(--bottom-bar-height)
+            - var(--page-padding)
+            - var(--page-padding)
+            - 58px
+        )
+    );
+
+    aspect-ratio: 1;
+
+    flex-shrink: 1;
+}
+
+.orbit-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    aspect-ratio: 1;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+}
+
+.orbit-ring-outer {
+    width: 86%;
+}
+
+.orbit-ring-inner {
+    width: 56%;
+
+    border-color: rgba(255, 255, 255, 0.07);
+}
+
+.orbit-core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: grid;
+    place-items: center;
+
+    width: clamp(68px, 7vw, 106px);
+    aspect-ratio: 1;
+
+    background: var(--color-black);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 30px rgba(255, 255, 255, 0.08),
+        0 0 70px rgba(255, 255, 255, 0.04);
+
+    transform: translate(-50%, -50%);
+}
+
+.orbit-star {
+    color: var(--color-white);
+
+    font-size: clamp(1.9rem, 3.5vw, 3.4rem);
+
+    line-height: 1;
+}
+
+.orbit-core-name {
+    position: absolute;
+    top: calc(100% + 12px);
+
+    width: max-content;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 0.6rem;
+    font-weight: 700;
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* =========================================
+   MEMBER ORBITS
+========================================= */
+
+.member-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    aspect-ratio: 1;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+.member-orbit-aj {
+    width: 56%;
+
+    transform:
+        translate(-50%, -50%)
+        rotate(20deg);
+
+    animation: orbit-aj 30s linear infinite;
+}
+
+.member-orbit-yggdrasil {
+    width: 86%;
+
+    transform:
+        translate(-50%, -50%)
+        rotate(200deg);
+
+    animation: orbit-yggdrasil 30s linear infinite;
+}
+
+/* =========================================
+   MEMBER LINKS
+========================================= */
+
+.orbit-member {
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    color: var(--color-white);
+
+    transform: translate(50%, -50%);
+
+    pointer-events: auto;
+}
+
+.orbit-member-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: max-content;
+}
+
+.member-orbit-aj .orbit-member-content {
+    transform: rotate(-20deg);
+
+    animation: counter-orbit-aj 30s linear infinite;
+}
+
+.member-orbit-yggdrasil .orbit-member-content {
+    transform: rotate(-200deg);
+
+    animation: counter-orbit-yggdrasil 30s linear infinite;
+}
+
+.member-visual {
+    display: grid;
+    place-items: center;
+
+    width: clamp(58px, 5.5vw, 84px);
+    aspect-ratio: 1;
+
+    color: var(--color-white);
+    background: var(--color-black);
+
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 50%;
+
+    font-size: clamp(1.1rem, 1.8vw, 1.6rem);
+    font-weight: 600;
+
+    transition:
+        background-color var(--transition-fast),
+        border-color var(--transition-fast),
+        transform var(--transition-fast);
+}
+
+.member-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: max-content;
+    max-width: 160px;
+
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.member-name {
+    font-size: 0.73rem;
+    font-weight: 700;
+
+    letter-spacing: 0.12em;
+}
+
+.member-role {
+    margin-top: 4px;
+
+    color: rgba(255, 255, 255, 0.48);
+
+    font-size: 0.6rem;
+
+    letter-spacing: 0.05em;
+}
+
+.orbit-member:hover .member-visual,
+.orbit-member:focus-visible .member-visual {
+    background: #18181a;
+
+    border-color: rgba(255, 255, 255, 0.75);
+
+    transform: scale(1.08);
+}
+
+.orbit-member:focus-visible {
+    outline: none;
+}
+
+.orbit-member:focus-visible .member-visual {
+    outline: 2px solid var(--color-white);
+    outline-offset: 4px;
+}
+
+/* =========================================
+   ORBIT INTERACTION
+========================================= */
+
+.orbit-system:hover .member-orbit,
+.orbit-system:hover .orbit-member-content,
+.orbit-system:focus-within .member-orbit,
+.orbit-system:focus-within .orbit-member-content {
+    animation-play-state: paused;
+}
+
+.orbit-instruction {
+    margin-top: 8px;
+
+    flex-shrink: 0;
+
+    color: rgba(255, 255, 255, 0.36);
+
+    font-size: 0.64rem;
+
+    letter-spacing: 0.12em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+.visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+
+    padding: 0;
+    margin: -1px;
+
+    overflow: hidden;
+
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+
+    border: 0;
+}
+
+/* =========================================
+   ORBIT ANIMATIONS
+========================================= */
+
+@keyframes orbit-aj {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(20deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(380deg);
+    }
+}
+
+@keyframes counter-orbit-aj {
+    from {
+        transform: rotate(-20deg);
+    }
+
+    to {
+        transform: rotate(-380deg);
+    }
+}
+
+@keyframes orbit-yggdrasil {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(200deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(560deg);
+    }
+}
+
+@keyframes counter-orbit-yggdrasil {
+    from {
+        transform: rotate(-200deg);
+    }
+
+    to {
+        transform: rotate(-560deg);
+    }
+}
+
+/* =========================================
+   COMPACT LAYOUT
+========================================= */
+
+@media (max-width: 920px) {
+    .home-layout {
+        grid-template-columns: 1fr;
+        grid-template-rows:
+            auto
+            minmax(0, 1fr);
+
+        gap: clamp(10px, 2vh, 20px);
     }
 
     .home-panel {
-        width: 100%;
+        max-width: 100%;
 
-        padding: 24px 20px;
+        padding: clamp(16px, 2.5vh, 24px);
+    }
+
+    .home-label {
+        margin-bottom: 7px;
+
+        font-size: 0.68rem;
     }
 
     .home-title {
-        margin-bottom: 18px;
+        margin-bottom: 10px;
 
-        font-size: clamp(3rem, 17vw, 5rem);
+        font-size: clamp(2.7rem, 8vw, 4.5rem);
     }
 
     .home-description {
-        font-size: 0.9rem;
-        line-height: 1.5;
+        max-width: 700px;
+
+        font-size: clamp(0.76rem, 1.8vw, 0.9rem);
+
+        line-height: 1.4;
+    }
+
+    .studio-orbit {
+        display: grid;
+        grid-template-rows:
+            auto
+            minmax(0, 1fr)
+            auto;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .orbit-label {
+        margin-bottom: 4px;
+    }
+
+    .orbit-system {
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+
+        justify-self: center;
+    }
+
+    .orbit-instruction {
+        margin-top: 4px;
+    }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 720px) {
+    .home-panel {
+        padding: 14px 16px;
+    }
+
+    .home-title {
+        margin-bottom: 8px;
+
+        font-size: clamp(2.5rem, 14vw, 4rem);
+    }
+
+    .home-description {
+        font-size: clamp(0.72rem, 2.6vw, 0.84rem);
+
+        line-height: 1.35;
+    }
+
+    .orbit-label {
+        font-size: 0.65rem;
+    }
+
+    .orbit-core {
+        width: clamp(54px, 17vw, 76px);
+    }
+
+    .orbit-star {
+        font-size: clamp(1.6rem, 7vw, 2.4rem);
+    }
+
+    .orbit-core-name {
+        top: calc(100% + 8px);
+
+        font-size: 0.52rem;
+    }
+
+    .member-visual {
+        width: clamp(48px, 14vw, 66px);
+
+        font-size: 1rem;
+    }
+
+    .member-information {
+        max-width: 110px;
+
+        margin-top: 7px;
+    }
+
+    .member-name {
+        font-size: 0.64rem;
+    }
+
+    .member-role {
+        display: none;
+    }
+
+    .orbit-instruction {
+        font-size: 0.55rem;
+    }
+}
+
+/* =========================================
+   SHORT SCREENS
+========================================= */
+
+@media (max-width: 920px) and (max-height: 700px) {
+    .home-layout {
+        gap: 8px;
+    }
+
+    .home-panel {
+        padding: 10px 14px;
+    }
+
+    .home-label {
+        margin-bottom: 4px;
+
+        font-size: 0.6rem;
+    }
+
+    .home-title {
+        margin-bottom: 6px;
+
+        font-size: clamp(2.2rem, 10vw, 3.2rem);
+    }
+
+    .home-description {
+        font-size: 0.7rem;
+
+        line-height: 1.25;
+    }
+
+    .orbit-label {
+        margin-bottom: 2px;
+
+        font-size: 0.58rem;
+    }
+
+    .orbit-instruction {
+        margin-top: 2px;
+
+        font-size: 0.5rem;
+    }
+}
+
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    .member-orbit,
+    .orbit-member-content {
+        animation: none;
+    }
+
+    .member-visual {
+        transition: none;
     }
 }
