@@ -1,0 +1,104 @@
+.profile-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-panel {
+    width: min(900px, 100%);
+
+    padding: clamp(32px, 6vw, 72px);
+
+    background: rgba(17, 17, 17, 0.84);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(6px);
+}
+
+.profile-back-link {
+    display: inline-block;
+
+    margin-bottom: clamp(48px, 8vw, 96px);
+
+    color: rgba(255, 255, 255, 0.52);
+
+    font-size: 0.75rem;
+    font-weight: 700;
+
+    letter-spacing: 0.18em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition:
+        color 180ms ease,
+        transform 180ms ease;
+}
+
+.profile-back-link:hover,
+.profile-back-link:focus-visible {
+    color: #f7f8ff;
+
+    transform: translateX(-4px);
+}
+
+.profile-identity {
+    display: grid;
+    place-items: center;
+
+    width: clamp(76px, 10vw, 112px);
+    aspect-ratio: 1;
+
+    margin-bottom: 28px;
+
+    color: #f7f8ff;
+    background: #0e0e0f;
+
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 50%;
+
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+    font-weight: 600;
+
+    letter-spacing: 0.06em;
+}
+
+.profile-label {
+    margin-bottom: 12px;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 0.72rem;
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+.profile-name {
+    margin-bottom: 14px;
+
+    font-size: clamp(3rem, 8vw, 7rem);
+
+    line-height: 0.9;
+
+    letter-spacing: 0.01em;
+}
+
+.profile-role {
+    color: rgba(255, 255, 255, 0.72);
+
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+
+    letter-spacing: 0.04em;
+}
+
+@media (max-width: 720px) {
+    .profile-panel {
+        padding: 28px 20px;
+    }
+
+    .profile-back-link {
+        margin-bottom: 56px;
+    }
+}
