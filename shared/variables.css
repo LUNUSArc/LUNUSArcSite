@@ -10,6 +10,11 @@
 
     --color-border: rgba(255, 255, 255, 0.08);
 
+    /* Backgrounds */
+
+--page-background-image:
+    url("../assets/images/backgrounds/lunusarc-background-01.jpg");
+    
     /* Layout */
 
     --top-bar-height: 58px;

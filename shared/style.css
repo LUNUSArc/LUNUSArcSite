@@ -186,12 +186,12 @@ a {
 
     overflow: hidden;
 
-    background:
+    background-image:
         linear-gradient(
-            rgba(75, 29, 102, 0.52),
-            rgba(75, 29, 102, 0.52)
+            rgba(18, 7, 28, 0.66),
+            rgba(18, 7, 28, 0.66)
         ),
-        url("../assets/images/backgrounds/lunus-background.jpg");
+        var(--page-background-image);
 
     background-size: cover;
     background-position: center;
@@ -303,8 +303,9 @@ a {
     .ad-screen span {
         font-size: 0.58rem;
     }
+}
 
-    /* =========================================
+/* =========================================
    GLOBAL PAGE ENTRANCE ANIMATION
 ========================================= */
 
@@ -324,11 +325,8 @@ a {
     }
 }
 
-/* Respect reduced-motion accessibility settings */
-
 @media (prefers-reduced-motion: reduce) {
     .page-area {
         animation: none;
     }
-}
 }
